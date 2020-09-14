@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transition: 0.6s ease-in;
+}
+
+.nav__logo {
+  object-fit: contain;
+  width: 100px;
+}
+
+.nav__avater {
+  object-fit: contain;
+  width: 40px;
+}
+
+.nav__black {
+  background-color: rgba(0, 0, 0, 0.788);
+  mask-border-mode: linear;
+}
